@@ -1,3 +1,4 @@
+package Strings;
 // Count length of string without using .length() directly in print
 
 public class CountLengthOfString {

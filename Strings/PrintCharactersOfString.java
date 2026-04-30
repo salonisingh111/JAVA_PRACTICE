@@ -1,3 +1,4 @@
+package Strings;
 public class PrintCharactersOfString {
  public static void main(String[] args) {
     String input = "hello";
