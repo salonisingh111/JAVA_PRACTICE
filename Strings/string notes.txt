@@ -1,0 +1,73 @@
+JAVA STRING – IMPORTANT NOTES
+
+1. Declaration
+String name = "Saloni";
+
+2. String is Immutable
+Original string never changes.
+
+3. Important Methods
+
+length()
+charAt()
+substring()
+equals()
+equalsIgnoreCase()
+toUpperCase()
+toLowerCase()
+contains()
+replace()
+trim()
+split()
+
+4. Example
+String s = "Java";
+
+System.out.println(s.length());
+System.out.println(s.charAt(0));
+
+5. Compare Strings
+Use:
+equals()
+
+Do NOT use:
+==
+
+6. String Concatenation
+String full = first + last;
+
+7. StringBuilder
+Used for fast string modification.
+
+StringBuilder sb = new StringBuilder("Java");
+sb.append(" Notes");
+
+8. Common Programs
+- Reverse string
+- Palindrome
+- Count vowels
+- Frequency count
+- Remove spaces
+
+9. Important Difference
+String -> Immutable
+StringBuilder -> Mutable
+
+10. Common Errors
+- NullPointerException
+- StringIndexOutOfBoundsException
+
+11. Interview Questions
+- Difference between == and equals()
+- Difference between String and StringBuilder
+- Why String is immutable
+
+12. Time Complexity
+charAt() -> O(1)
+contains() -> O(n)
+
+13. Best Practice
+Always use:
+equals()
+
+for string comparison.

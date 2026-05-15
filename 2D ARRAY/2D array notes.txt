@@ -1,0 +1,66 @@
+JAVA 2D ARRAY – IMPORTANT NOTES
+
+1. Declaration
+int[][] arr;
+
+2. Initialization
+int[][] arr = new int[3][3];
+
+3. Direct Values
+int[][] arr = {
+    {1,2,3},
+    {4,5,6}
+};
+
+4. Access Element
+arr[0][1]
+
+5. Nested Loop
+for(int i = 0; i < arr.length; i++){
+    for(int j = 0; j < arr[i].length; j++){
+        System.out.print(arr[i][j] + " ");
+    }
+}
+
+6. Jagged Array
+int[][] arr = new int[3][];
+arr[0] = new int[2];
+
+7. Important Concepts
+- Rows and Columns
+- Matrix representation
+- Nested loops required
+
+8. Common Operations
+- Matrix addition
+- Matrix multiplication
+- Transpose
+- Diagonal sum
+
+9. Important Conditions
+Rows:
+arr.length
+
+Columns:
+arr[i].length
+
+10. Common Errors
+- ArrayIndexOutOfBoundsException
+- Wrong loop conditions
+
+11. Time Complexity
+Traversal -> O(rows × cols)
+
+12. Most Asked Logic
+- Spiral matrix
+- Rotate matrix
+- Identity matrix
+- Upper triangle
+- Lower triangle
+
+13. Best Practice
+Use meaningful variable names:
+row, col
+
+instead of:
+i, j in complex programs.
